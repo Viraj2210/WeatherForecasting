@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">WeatherForecasting</string>
+    <string name="user_name">Enter User Name</string>
+    <string name="password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="please_enter_username_and_password">Please enter username and password</string>
+    <string name="valid_user_name">User Name</string>
+    <string name="valid_password">Password</string>
+    <string name="valid_username_password">Username and Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_all_details">Please enter all details</string>
+    <string name="temperature">Temperature</string>
+    <string name="weather_type">Weather Type</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

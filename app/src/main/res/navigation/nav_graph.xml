@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userListFragment">
+
+    <fragment
+        android:id="@+id/userListFragment"
+        android:name="com.d2k.weatherforecasting.ui.home.fragment.UserListFragment"
+        android:label="UserListFragment" >
+        <action
+            android:id="@+id/action_userListFragment_to_weatherForecastFragment"
+            app:destination="@id/weatherForecastFragment" />
+        <action
+            android:id="@+id/action_userListFragment_to_addUserFragment"
+            app:destination="@id/addUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherForecastFragment"
+        android:name="com.d2k.weatherforecasting.ui.home.fragment.WeatherForecastFragment"
+        android:label="WeatherForecastFragment" >
+        <action
+            android:id="@+id/action_weatherForecastFragment_to_loginActivity"
+            app:destination="@id/loginActivity"
+            app:popUpTo="@id/loginActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/addUserFragment"
+        android:name="com.d2k.weatherforecasting.ui.home.fragment.AddUserFragment"
+        android:label="AddUserFragment" >
+        <action
+            android:id="@+id/action_addUserFragment_to_userListFragment"
+            app:destination="@id/userListFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.d2k.weatherforecasting.ui.login.LoginActivity"
+        android:label="activity_login2"
+        tools:layout="@layout/activity_login2" />
+</navigation>
